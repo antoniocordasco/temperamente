@@ -1,0 +1,13 @@
+.tq_textarea { width:100%; height:270px; }
+.tq_textfield{ width:100%;  }
+.tq_table{ width:90%; text-align:left; }
+.tq_table td{ padding-top:10px; }
+
+.picture_selector_preview{ height:50px; }
+
+.tq_alert{ background-color:#f99; }
+span.tq_small{ font-size:0.8em; }
+tr.tq_odd{ background-color:#fafafa; }
+
+
+

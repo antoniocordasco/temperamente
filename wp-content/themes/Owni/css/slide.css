@@ -1,0 +1,88 @@
+#image-gallery-wrapper {
+	margin:0 auto 8px;
+	width:100%;
+	position:relative;
+}
+
+#image-gallery {
+	margin:0 auto;
+}
+
+.stepcarousel{
+position:relative; /*leave this value alone*/
+overflow:scroll; /*leave this value alone*/
+width:1119px; /*Width of Carousel Viewer itself*/
+height:178px; /*Height should enough to fit largest content's height*/
+margin:0 auto;
+}
+
+.stepcarousel .belt{
+position:absolute; /*leave this value alone*/
+left:0;
+top:0;
+}
+
+.stepcarousel .panel{
+background-color:#fff;
+float:left; /*leave this value alone*/
+overflow:hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin-right:6px ; /*margin around each panel*/
+width:215px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+height:171px;
+padding:1px;
+border:0 solid #e4e4e4;
+background-image:url(/wp-content/themes/Owni/images/book_bg3.png);
+background-repeat:no-repeat;
+}
+
+
+
+.stepcarousel .panel p{
+text-align:left; /*leave this value alone*/
+overflow:hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin:5px 5px ; /*margin around each panel*/
+
+}
+
+.stepcarousel .panel h2{
+text-align:left; /*leave this value alone*/
+height:20px;
+overflow:hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin:2px 5px ; /*margin around each panel*/
+font-size:16px;
+font-weight:bold;
+text-align:center;
+font-family:Georgia,century gothic,Arial,verdana, sans-serif;
+}
+
+.stepcarousel .panel img{
+float:left; /*leave this value alone*/
+margin:0; /*margin around each panel*/
+padding:0;
+border:0px solid #f0f0f0;
+margin-left:0px;
+margin-top:7px;
+}
+
+img.owni_slideshow_image{  height:159px; width:108px; }
+
+#image-gallery-wrapper .prev, #image-gallery-wrapper .next {
+	background:url(../images/slider-button.gif) no-repeat 0 0;
+	display:block;
+	position:absolute;
+	top:81px;
+	height:16px;
+	width:11px;
+	text-indent:-9999px;
+}
+
+#image-gallery-wrapper .prev {
+	left:0;
+}
+
+#image-gallery-wrapper .next {
+	background-position:0 100%;
+	right:0;
+}
+
+

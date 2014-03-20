@@ -1,0 +1,107 @@
+/* 
+	fblike_admin.css 
+	float mediation via to http://www.webtoolkit.info/css-clearfix.html 
+*/
+
+div.fblCellWrapper:after,
+div.fblikeAdminFormContainer ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+div.fblCellWrapper,
+div.fblikeAdminFormContainer ul {
+	display: inline-block;
+}
+ 
+html[xmlns] div.fblCellWrapper,
+html[xmlns] div.fblikeAdminFormContainer ul {
+	display: block;
+}
+ 
+* html div.fblCellWrapper,
+* html div.fblikeAdminFormContainer ul {
+	height: 1%;
+}
+
+
+div.fblikeAdminFormContainer ul#fbLikeParameters li label,
+div.fblikeAdminFormContainer ul.fblikeFormFields li label {
+	display: block; 
+	width: 180px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
+
+div.fblikeAdminFormContainer ul#fbLikeParameters li label {
+	width: 110px;
+}
+
+div.fblikeAdminFormContainer ul.fblikeFormFields li span {
+	font-size: 85%;
+	margin-left: 10px;
+	color:#999999;
+} 
+
+
+div.fblikeAdminFormContainer ul.fblikeFormFields li span.helpsetting {
+	display: none;
+}
+
+div.fblikeAdminFormContainer fieldset {
+}
+
+div.fblikeAdminFormContainer fieldset legend {
+	font-weight: bold;
+	font-size: 105%;
+	padding: 0px 4px;
+	margin: 5px 0;
+}
+
+.fblCellSettings {
+	height: 140px;
+	width: 250px;
+	float: left;
+	margin: 10px 5px 10px 0;
+}
+
+fieldset legend,
+fieldset {
+	margin:0;
+	padding: 5px 0px 5px 15px;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+
+fieldset legend {
+	margin-top: 0;
+	padding-top: 0;
+	border-bottom-style: none;
+}
+
+.fblCellPreview {
+	height: 140px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #F2F2F2;	
+	margin-top: 10px;
+}
+
+.fblCellPreview legend {
+	background-color: #F2F2F2;	
+}
+
+.fblCellDescription,
+.fblCellParameters {
+	margin: 5px 15px 0 0;	
+}
+
+.fblCellDescription p {
+	font-size: 90%;
+}

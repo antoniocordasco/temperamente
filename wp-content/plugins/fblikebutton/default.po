@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FB Like Button for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-25 07:01-0500\n"
+"PO-Revision-Date: 2010-04-25 07:01-0500\n"
+"Last-Translator: timothypetrakis <beanerspace@yahoo.com>\n"
+"Language-Team: HealYourChurchWebsite.com <healyourchurchwebsite@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fblike_admin_form.php:28
+msgid "FBLike Plugin Options Setup"
+msgstr ""
+
+#: fblike_admin_form.php:30
+msgid "FBLike Description"
+msgstr ""
+
+#: fblike_admin_form.php:31
+msgid "The form below provides options on how you would like the FaceBook Like button to appear on your website."
+msgstr ""
+
+#: fblike_admin_form.php:32
+msgid "The Like button enables users to make connections to your pages and share content back to their friends on Facebook with one click."
+msgstr ""
+
+#: fblike_admin_form.php:33
+msgid "For FBLikeButton Plugin updates, comments, questions, and/or feedback, go ahead and visit "
+msgstr ""
+
+#: fblike_admin_form.php:35
+msgid "FaceBook Like Button Wordpress Plugin Page"
+msgstr ""
+
+#: fblike_admin_form.php:35
+msgid "the FaceBook Like Button Wordpress Plugin Page."
+msgstr ""
+
+#: fblike_admin_form.php:36
+msgid "For more information about the FaceBook Like Button and how it works, please visit "
+msgstr ""
+
+#: fblike_admin_form.php:38
+msgid "FaceBook Like Button Page"
+msgstr ""
+
+#: fblike_admin_form.php:38
+msgid "the FaceBook Like Button Reference Page."
+msgstr ""
+
+#: fblike_admin_form.php:43
+msgid "FBLikeButton Settings"
+msgstr ""
+
+#: fblike_admin_form.php:47
+msgid "Display before the content?"
+msgstr ""
+
+#: fblike_admin_form.php:52
+msgid "Show like button above the page/post."
+msgstr ""
+
+#: fblike_admin_form.php:57
+msgid "Display after the content?"
+msgstr ""
+
+#: fblike_admin_form.php:62
+msgid "Show like button at the end of the page/post."
+msgstr ""
+
+#: fblike_admin_form.php:68
+msgid "Display on individual posts?"
+msgstr ""
+
+#: fblike_admin_form.php:74
+msgid "Show like button on individual posts."
+msgstr ""
+
+#: fblike_admin_form.php:80
+msgid "Display on individual pages?"
+msgstr ""
+
+#: fblike_admin_form.php:86
+msgid "Show like button on individual pages."
+msgstr ""
+
+#: fblike_admin_form.php:91
+msgid "Display on the home page?"
+msgstr ""
+
+#: fblike_admin_form.php:97
+msgid "Show like button posts listed on the front/index page."
+msgstr ""
+
+#: fblike_admin_form.php:101
+msgid "Facebook Like Button Display Parameters"
+msgstr ""
+
+#: fblike_admin_form.php:104
+msgid "Layout"
+msgstr ""
+
+#: fblike_admin_form.php:106
+msgid "Standard"
+msgstr ""
+
+#: fblike_admin_form.php:107
+msgid "Button Count"
+msgstr ""
+
+#: fblike_admin_form.php:109
+msgid "Determines the size and amount of social context next to the button."
+msgstr ""
+
+#: fblike_admin_form.php:113
+msgid "Width"
+msgstr ""
+
+#: fblike_admin_form.php:115
+msgid "The width of the plugin, in pixels. The default is 300."
+msgstr ""
+
+#: fblike_admin_form.php:119
+msgid "Height"
+msgstr ""
+
+#: fblike_admin_form.php:121
+msgid "The height of the plugin, in pixels. The default is 25."
+msgstr ""
+
+#: fblike_admin_form.php:125
+msgid "Verb to Display"
+msgstr ""
+
+#: fblike_admin_form.php:127
+msgid "Like"
+msgstr ""
+
+#: fblike_admin_form.php:128
+msgid "Recommend"
+msgstr ""
+
+#: fblike_admin_form.php:131
+msgid "The verb to display in the button. Currently only 'Like' and 'Recommend' are supported."
+msgstr ""
+
+#: fblike_admin_form.php:135
+msgid "Font"
+msgstr ""
+
+#: fblike_admin_form.php:144
+msgid "The font of the plugin."
+msgstr ""
+
+#: fblike_admin_form.php:148
+msgid "Color Scheme"
+msgstr ""
+
+#: fblike_admin_form.php:150
+msgid "Light"
+msgstr ""
+
+#: fblike_admin_form.php:151
+msgid "Dark"
+msgstr ""
+
+#: fblike_admin_form.php:153
+msgid "The color scheme of the plugin."
+msgstr ""
+
+#: fblike_admin_form.php:156
+msgid "Show Faces?"
+msgstr ""
+
+#: fblike_admin_form.php:161
+msgid "Show facebook profile pictures below the button."
+msgstr ""
+
+#: fblike_admin_form.php:164
+msgid "CSS Class"
+msgstr ""
+
+#: fblike_admin_form.php:166
+msgid "CSS class encapsulating the button code. The default is fbLikeContainer."
+msgstr ""
+
+#: fblike_admin_form.php:171
+msgid "Update Options"
+msgstr ""
+
+#: fblike_admin_options.php:45
+msgid "FBLike Options Saved."
+msgstr ""
+

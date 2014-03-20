@@ -1,0 +1,12 @@
+.alignleft{
+	margin: 4px 20px 20px 0; float:left;
+}
+.alignright{
+	margin: 4px  0 20px 20px; float:right;
+}
+#header p {
+	text-align: center; color: #9C9C9C;
+}
+#footer p {
+	text-align: center; color: #9C9C9C;
+}

@@ -1,0 +1,210 @@
+a { text-decoration:none; }
+
+.clear { clear:both; }
+
+.clearleft { clear:left; }
+
+.entry { line-height:22px !important; }
+
+.entry p { margin-bottom:10px; }
+.entry p.read-more { margin-bottom:0; line-height:16px; }
+
+.entry h1, .entry h2, .entry h3, .entry h5, .entry h6 {
+	font-weight:bold;	margin:5px 0;
+}
+.entry h4 {
+	font-weight:bold;	margin:0;
+}
+
+blockquote {
+	padding-left:30px;
+	font-style:italic;
+}
+
+.entry ul { padding-left:20px; }
+
+.entry ul li { list-style-type:square; }
+
+.entry ol { padding-left:25px; }
+
+/* Begin Images */
+p img {
+	padding:0; max-width:100%;
+}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display:block; margin-left:auto; margin-right:auto;
+}
+
+img.alignright {
+	padding:4px; margin:4px 0 20px 20px; display:inline;
+}
+
+img.alignleft {
+	padding:4px; margin:4px 20px 20px 0; display:inline;
+}
+
+.alignright { float:right; }
+
+.alignleft { float:left }
+/* End Images */
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps { cursor:help; }
+
+acronym, abbr { border-bottom:1px dashed #999; }
+
+blockquote {
+	margin:10px;
+	padding-left:20px;
+}
+
+blockquote cite {
+	margin:5px 0 0;
+	display:block;
+}
+
+.center { text-align:center; }
+
+.hidden { display:none; }
+
+hr { display:none; }
+
+a img { border:none; }
+
+.navigation {
+	/* display:block;
+	text-align:center;
+	margin-bottom:60px;*/
+	margin-top:10px;
+}
+/* End Various Tags & Classes*/
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.wp-caption {
+	border:1px solid #ddd;
+	text-align:center;
+	background-color:#f3f3f3;
+	padding-top:4px;
+	margin:10px;
+}
+
+.wp-caption img {
+	margin:0;
+	padding:0;
+	border:0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size:11px;
+	line-height:17px;
+	padding:0 4px 5px;
+	margin:0;
+}
+/* End captions */
+
+
+/* callendar widget */
+#wp-calendar {
+	empty-cells: show;
+	width:100%;
+}
+
+#wp-calendar th, #wp-calendar td { text-align:center; }
+
+#wp-calendar th { font-weight:bold; }
+
+#wp-calendar #today {
+	background:#aeaeae;
+	color:#fff;
+}
+
+#wp-calendar #next { text-align:right !important; }
+#wp-calendar #prev { text-align:left !important; }
+
+#wp-calendar a { color:#cdba17; }
+
+#wp-calendar a:hover { color:#515151; }
+
+
+
+
+
+/* comment and respond */
+#comments, #respond h3 {
+	font-size:19px;
+	font-style:italic;
+	font-weight:normal;
+	color:#2e2e2e;
+	padding-bottom:5px;
+}
+
+.navigation, #respond {
+}
+
+.commentlist li {
+	background:#f4f4f4;
+	clear:both; 
+	display:block;
+	width:900px;
+	padding:7px;
+	margin-bottom:8px;
+	overflow:hidden;
+	border:1px solid #e2e2e2;
+}
+
+.commentlist li .avatar { 
+	float: left;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #ffffff;
+	margin-right:5px;
+}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+.commentlist p {
+	clear:both;
+	line-height: 1.5em;
+}
+
+#commentform input, #commentform textarea {
+	background:#f4f4f4;
+	color:#4a483d;
+	font:normal 12px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	border:1px solid #e2e2e2;
+	padding:7px;
+}
+
+#commentform p {
+	margin-bottom:6px;
+}
+
+#commentform #submit {
+	background:#d3d3d3;
+	font-size:18px;
+	font-style:italic;
+	color:#2e2e2e;
+	padding:0 6px;
+	height:37px;
+	line-height:37px;
+	border:1px solid #888888;
+}
+
+#commentform textarea { width:602px; }

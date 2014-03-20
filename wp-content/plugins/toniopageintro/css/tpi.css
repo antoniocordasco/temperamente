@@ -1,0 +1,48 @@
+
+
+img.tpi_image_preview{ height:50px; }
+hr.tpi{ margin:30px; }
+.tpi_spotlight textarea{ width:30em; }
+
+#wpcontent select.tpi_multiple{ height:6em; }
+
+.tpi_image_width{ width:60px; }
+.tpi_image_height{ width:60px; }
+
+.tpi_doc_category_scroll{ padding:2px; border:1px solid #bbb; margin:10px 0 10px 160px; width:470px; height:220px; overflow:auto; }
+
+.tpi_doc_category_scroll div{ margin-bottom:3px; }
+.tpi_selected{ background-color:#FFFFE0; }
+
+
+
+
+.tquiz_hide{ display:none; }
+
+
+
+
+
+/*  creates a little calendar icon instead of a text link for "Choose date"  */
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(/wp-content/plugins/toniopageintro/images/calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
