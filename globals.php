@@ -13,7 +13,7 @@ $GLOBALS['temperamente']['fb'] = array(
 	
 );
 
-$GLOBALS['temperamente']['category_ids'] = array('news' => 7, 'interviste' => 6, 'libri-al-cinema' => 8, 'racconti_sgc'=>1284, 'quiz'=>753, 'officina-dei-pensieri' => 1419);
+$GLOBALS['temperamente']['category_ids'] = array('news' => 7, 'interviste' => 6, 'libri-al-cinema' => 8, 'racconti_sgc'=>1284, 'quiz'=>753, 'officina-dei-pensieri' => 1419, 'famedalibri' => 2738, 'lettori-erranti' => 2709, 'letture-sui-binari' => 2710, 'lostintranslations' => 2748, 'libri-a-teatro' => 2037);
 $GLOBALS['temperamente']['hidden_category_ids'] = array('sidebar-links' => 1352);
 
 $GLOBALS['temperamente']['nonreview_categories_ids'] = array(228, 6, 753, 7, 598, 8, 1419);
