@@ -98,7 +98,12 @@ if($home_posts_output = Tonio_Cache::get('home-posts', '')) {
 					|| $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['interviste'] 
 					|| $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['racconti_sgc']
 					|| $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['quiz']
-					|| $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['officina-dei-pensieri'])
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['officina-dei-pensieri']
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['famedalibri']
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['lettori-erranti']
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['letture-sui-binari']
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['lostintranslations']
+                    || $current_cat->term_id == $GLOBALS['temperamente']['category_ids']['libri-a-teatro'])
 					{
 						$thumbnail = str_replace('book_background_big','nonbook_background_big',$thumbnail);
 					}
